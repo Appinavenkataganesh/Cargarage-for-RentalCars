@@ -1,0 +1,230 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.Nav1
+{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+}
+.ca
+{
+
+    text-align: center;
+    font-size: 4vh;
+    font-weight:500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10vh;
+}
+.sec2
+{
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.inp
+{
+    width: 500px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    padding-left: 10px  ;
+}
+.sec3
+{
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 10px;
+
+}
+.Nav2
+{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color:azure; 
+    padding: 50px 0px 0px 0px;
+
+    
+}
+.lis
+{
+    gap: 35px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+   
+}
+li
+{
+    list-style-type: none;
+}
+
+.section
+{
+    background-image: url(./img/car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 87vh;
+}
+
+.sect1
+{
+    font-size: 8vh;
+    color: white;
+    font-weight: bold;
+    margin-left: 80px;
+    
+}
+
+.sect2
+{
+    color: white;
+    font-size: 3vh;
+
+    margin-left: 80px;
+
+}
+.sect3
+{
+    margin-left: 80px;
+}
+.mb
+{
+    background-color: #f75d34;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: 1px solid #f75d34;
+    border-radius: 8px;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+
+.hed
+{
+    font-size: 4vh;
+    font-weight: bold;
+    margin-left:80px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.secti
+{
+    display: flex;
+    gap:25px;
+    margin-left: 80px;
+
+}
+.imcar
+{
+    height: 180px;
+    width: 300px ;
+   
+}
+.namecar
+{
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.carprice
+{
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 400;
+}
+.butin
+{
+    height:40px ;
+    width:200px ;
+    background-color: white;
+    color: #f75d34;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.cars_container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 50px;
+    margin-left: 100px;  
+}
+.main_temp
+{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(200, 234, 200);
+    border-radius: 10px;
+}
+.imgout
+{
+    height: 180px;
+    width: 300px ;
+    margin-top: 3vh;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.imgout:hover
+{
+    transform: scale(1.1); /* Increase size on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.textmodel
+{
+    font-size: 3vh;
+    color:black;
+    margin-top: 3px;
+    margin-left: 25px;
+}
+.textprice
+{
+    font-size: 2vh;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.lat
+{
+    background-color: aliceblue;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.lat_temp
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 50px;
+    margin-left: 100px; 
+}
+.main_temp1
+{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(205, 168, 177);
+    border-radius: 10px;
+}
